@@ -1,6 +1,5 @@
 <template>
   <div id="detail">
-            <toast></toast>
       <detail-nav-bar class="detail-nav" @titleClick="titleClick" ref="navbar"></detail-nav-bar>
       <scroll class="content" ref="scroll" 
               :probe-type="3"
