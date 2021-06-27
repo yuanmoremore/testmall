@@ -15,13 +15,18 @@ module.exports={
 　　　　
     },
     devServer: { // 环境配置
-        host: '0.0.0.0',
+        host: '127.0.0.1',
         public: '169.254.244.161:8082',//该网络地址为你联网的ip地址
         port: 8082,
-        https: false,
+        // https: false,
         hotOnly: false,
         disableHostCheck: true,
     },
+    Headers: {
+        'Access-Control-Allow-Origin': '*'
+  
+      },
+    hotOnly: false,
     lintOnSave: false
 
 }
